@@ -1,0 +1,599 @@
+321
+Which of the following is not a valid C variable name?
+Option_a: int number;
+Option_b: float rate;
+Option_c: int variable_count;
+Option_d: int $main;
+correct_option: int $main;
+
+322
+Which function is used in Arduino to read the value from an analog sensor?
+Option_a: analogWrite()
+Option_b: digitalRead()
+Option_c: analogRead()
+Option_d: pinMode()
+correct_option: analogRead()
+
+323
+What pin is typically used on the Arduino Uno to output a PWM signal?
+Option_a: Pin A0
+Option_b: Pin 13
+Option_c: Pins 3, 5, 6, 9, 10, and 11
+Option_d: Pin A5
+correct_option: Pins 3, 5, 6, 9, 10, and 11
+
+324
+Which library is commonly used for interfacing with an RFID module on Arduino?
+Option_a: Wire
+Option_b: SPI
+Option_c: MFRC522
+Option_d: Servo
+correct_option: MFRC522
+
+325
+What is the purpose of the pinMode() function in Arduino?
+Option_a: To read analog values
+Option_b: To set a pin as input or output
+Option_c: To delay the program
+Option_d: To send data over serial
+correct_option: To set a pin as input or output
+
+326
+How can you control the brightness of an LED using Arduino?
+Option_a: Using digitalRead()
+Option_b: Using delay()
+Option_c: Using analogWrite()
+Option_d: Using Serial.begin()
+correct_option: Using analogWrite()
+
+327
+What type of sensor is an MQ-6?
+Option_a: Temperature sensor
+Option_b: Ultrasonic sensor
+Option_c: Gas sensor
+Option_d: Humidity sensor
+correct_option: Gas sensor
+
+328
+Which function is used to interface a buzzer with Arduino?
+Option_a: analogRead()
+Option_b: tone()
+Option_c: noTone()
+Option_d: both tone() and noTone()
+correct_option: both tone() and noTone()
+
+329
+Which pin is typically used to connect a water-level sensor to an Arduino?
+Option_a: Digital pin
+Option_b: PWM pin
+Option_c: Analog pin
+Option_d: Interrupt pin
+correct_option: Analog pin
+
+330
+What does the ultrasonic sensor measure using Arduino?
+Option_a: Humidity
+Option_b: Distance
+Option_c: Temperature
+Option_d: Light intensity
+correct_option: Distance
+
+331
+Which function is used to send data to the serial monitor in Arduino?
+Option_a: printSerial()
+Option_b: Serial.print()
+Option_c: SerialRead()
+Option_d: analogRead()
+correct_option: Serial.print()
+
+332
+What will happen if you try to use pinMode() for an analog pin on Arduino Uno?
+Option_a: Sets it as digital input
+Option_b: Sets it as analog input
+Option_c: An error occurs
+Option_d: Sets it as analog output
+correct_option: Sets it as digital input
+
+333
+Which of the following Arduino pins cannot be used for PWM output?
+Option_a: Pin 9
+Option_b: Pin 10
+Option_c: Pin 11
+Option_d: Pin 13
+correct_option: Pin 13
+
+334
+What is the maximum voltage that can be applied to an Arduino Uno's analog pin?
+Option_a: 3.3V
+Option_b: 5V
+Option_c: 9V
+Option_d: 12V
+correct_option: 5V
+
+335
+Which function initializes serial communication in Arduino?
+Option_a: Serial.start()
+Option_b: Serial.begin()
+Option_c: Serial.write()
+Option_d: Serial.open()
+correct_option: Serial.begin()
+
+336
+Which Arduino pin is typically connected to the output pin of a water-level sensor?
+Option_a: Digital pin
+Option_b: Analog pin
+Option_c: PWM pin
+Option_d: Power pin
+correct_option: Analog pin
+
+337
+What is the purpose of an ultrasonic sensor when interfaced with Arduino?
+Option_a: To measure temperature
+Option_b: To measure distance
+Option_c: To detect gas
+Option_d: To detect light intensity
+correct_option: To measure distance
+
+338
+Which sensor is commonly used for detecting the presence of gases like LPG and methane?
+Option_a: DHT11
+Option_b: MQ-6
+Option_c: HC-SR04
+Option_d: RFID
+correct_option: MQ-6
+
+339
+Which library is often used to communicate with an RFID module when interfacing it with Arduino?
+Option_a: Wire
+Option_b: MFRC522
+Option_c: Servo
+Option_d: Adafruit
+correct_option: MFRC522
+
+340
+When interfacing a buzzer with Arduino, which function would you use to make it produce sound?
+Option_a: analogRead()
+Option_b: tone()
+Option_c: Serial.print()
+Option_d: digitalRead()
+correct_option: tone()
+
+341
+In a basic LED chaser program using Arduino, what programming concept is most commonly used to make LEDs light up sequentially?
+Option_a: Loop
+Option_b: Conditionals
+Option_c: Array and loop
+Option_d: DigitalRead
+correct_option: Array and loop
+
+342
+What parameter is crucial when measuring distance with an ultrasonic sensor on Arduino?
+Option_a: Frequency
+Option_b: Speed of sound
+Option_c: Temperature
+Option_d: Voltage
+correct_option: Speed of sound
+
+343
+For an MQ-6 gas sensor to function accurately, what is necessary during initialization?
+Option_a: Setting a threshold value
+Option_b: Calibrating the sensor
+Option_c: Adjusting the voltage
+Option_d: Configuring the baud rate
+correct_option: Calibrating the sensor
+
+344
+What type of output does an RFID reader provide to the Arduino?
+Option_a: Analog
+Option_b: Digital
+Option_c: Serial data
+Option_d: PWM
+correct_option: Serial data
+
+345
+What is the usual power requirement for a standard buzzer interfaced with Arduino?
+Option_a: 3.3V
+Option_b: 5V
+Option_c: 12V
+Option_d: 24V
+correct_option: 5V
+
+346
+Which Arduino function is used to control the duration of time for which each LED remains on in an LED chaser project?
+Option_a: digitalRead()
+Option_b: delay()
+Option_c: analogWrite()
+Option_d: tone()
+correct_option: delay()
+
+347
+Which type of signal does an ultrasonic sensor send to measure distance?
+Option_a: Sound waves
+Option_b: Infrared
+Option_c: Light waves
+Option_d: Magnetic field
+correct_option: Sound waves
+
+348
+When using the MQ-6 sensor, which of the following gases can it detect?
+Option_a: Methane
+Option_b: Carbon dioxide
+Option_c: Oxygen
+Option_d: Carbon monoxide
+correct_option: Methane
+
+349
+What type of RFID tag is typically used with an MFRC522 RFID module on Arduino?
+Option_a: 125 kHz tag
+Option_b: ISO14443A standard tag
+Option_c: Wi-Fi tag
+Option_d: Bluetooth tag
+correct_option: ISO14443A standard tag
+
+350
+How is an active buzzer different from a passive buzzer when used with Arduino?
+Option_a: An active buzzer requires an external oscillator
+Option_b: An active buzzer has built-in oscillation
+Option_c: A passive buzzer is louder
+Option_d: There is no difference
+correct_option: An active buzzer has built-in oscillation
+
+351
+In an LED chaser circuit, what would happen if there is no delay between LED changes?
+Option_a: The LEDs will not light up
+Option_b: All LEDs will turn on together
+Option_c: The LEDs will appear to be moving very fast
+Option_d: The LEDs will not turn on at all
+correct_option: The LEDs will appear to be moving very fast
+
+352
+What is the role of the trigger pin in an ultrasonic sensor like the HC-SR04 when interfaced with Arduino?
+Option_a: To send an ultrasonic wave
+Option_b: To receive the reflected wave
+Option_c: To measure temperature
+Option_d: To control LED brightness
+correct_option: To send an ultrasonic wave
+
+353
+Which gas cannot be detected by the MQ-6 sensor?
+Option_a: Methane
+Option_b: Propane
+Option_c: Hydrogen
+Option_d: Carbon monoxide
+correct_option: Carbon monoxide
+
+354
+Which Arduino pins are typically used to connect the SPI interface of the MFRC522 RFID module?
+Option_a: Pins 8, 9, 10, 11
+Option_b: Pins 7, 8, 9
+Option_c: Pins 10, 11, 12, 13
+Option_d: Pins A0, A1, A2, A3
+correct_option: Pins 10, 11, 12, 13
+
+355
+When interfacing a buzzer with Arduino, which function can you use to stop the buzzer sound?
+Option_a: noTone()
+Option_b: digitalRead()
+Option_c: Serial.end()
+Option_d: analogWrite()
+correct_option: noTone()
+
+357
+In an LED chaser project, what would happen if the LEDs are connected in reverse polarity?
+Option_a: They will blink faster
+Option_b: They won’t turn on
+Option_c: They will burn out
+Option_d: They will be brighter
+correct_option: They won’t turn on
+
+358
+The echo pin on the HC-SR04 ultrasonic sensor receives a pulse. What does the duration of this pulse represent?
+Option_a: The time to calculate distance
+Option_b: The distance to the object
+Option_c: The time taken for the wave to return
+Option_d: The frequency of the wave
+correct_option: The time taken for the wave to return
+
+359
+What type of signal does the MQ-6 sensor output to Arduino?
+Option_a: Digital signal
+Option_b: Analog signal
+Option_c: PWM signal
+Option_d: Serial signal
+correct_option: Analog signal
+
+360
+In an RFID system, what is the purpose of the tag?
+Option_a: To generate an ultrasonic wave
+Option_b: To store data
+Option_c: To measure distance
+Option_d: To control motors
+correct_option: To store data
+
+361
+Which function is used to set a digital pin as an output in an LED chaser project?
+Option_a: digitalWrite()
+Option_b: analogWrite()
+Option_c: pinMode()
+Option_d: Serial.print()
+correct_option: pinMode()
+
+362
+What is the main component of an ultrasonic sensor like the HC-SR04?
+Option_a: A microphone
+Option_b: A piezoelectric crystal
+Option_c: A temperature sensor
+Option_d: A light sensor
+correct_option: A piezoelectric crystal
+
+363
+How does the MQ-6 sensor output change in response to higher gas concentrations?
+Option_a: The output voltage increases
+Option_b: The output voltage decreases
+Option_c: The signal frequency increases
+Option_d: The signal frequency decreases
+correct_option: The output voltage increases
+
+367
+In an LED chaser project, what would happen if you removed the delay() function?
+Option_a: LEDs would blink slower
+Option_b: LEDs would remain off
+Option_c: LEDs would blink rapidly
+Option_d: Only one LED would blink
+correct_option: LEDs would blink rapidly
+
+368
+When using a water-level sensor, what kind of output does the Arduino receive to determine water levels?
+Option_a: Digital signal
+Option_b: Analog signal
+Option_c: PWM signal
+Option_d: Frequency modulation
+correct_option: Analog signal
+
+369
+Which of the following components is essential for measuring the distance to an object using an ultrasonic sensor?
+Option_a: LED
+Option_b: Trigger and Echo pins
+Option_c: PWM pins
+Option_d: Resistor
+correct_option: Trigger and Echo pins
+
+370
+How do you calculate the distance measured by the HC-SR04 ultrasonic sensor?
+Option_a: Distance = Time x Speed of Sound
+Option_b: Distance = Time / Speed of Sound
+Option_c: Distance = (Time x Speed of Sound) / 2
+Option_d: Distance = (Speed of Sound / Time) / 2
+correct_option: Distance = (Time x Speed of Sound) / 2
+
+371
+The MQ-6 gas sensor is typically powered by which voltage range?
+Option_a: 3.3V
+Option_b: 5V
+Option_c: 9V
+Option_d: 12V
+correct_option: 5V
+
+372
+When using an RFID module with Arduino, what kind of data is typically stored on the RFID tags?
+Option_a: Text data only
+Option_b: Unique ID
+Option_c: Images
+Option_d: Digital signals
+correct_option: Unique ID
+
+373
+In a buzzer circuit, what function does tone(pin, frequency) serve in an Arduino program?
+Option_a: Sets a digital pin as output
+Option_b: Plays a sound at the specified frequency
+Option_c: Sends data to the serial monitor
+Option_d: Delays the program
+correct_option: Plays a sound at the specified frequency
+
+374
+What is the purpose of the RFID reader's SS (Slave Select) pin when interfaced with Arduino?
+Option_a: To power the RFID tag
+Option_b: To start communication with the RFID module
+Option_c: To read the tag data
+Option_d: To stop communication with the module
+correct_option: To start communication with the RFID module
+
+375
+In an LED chaser circuit, what is the effect of decreasing the delay time?
+Option_a: Increases LED brightness
+Option_b: Increases LED chase speed
+Option_c: Decreases LED brightness
+Option_d: Stops the LED sequence
+correct_option: Increases LED chase speed
+
+376
+What command should be used to clear the tone from a pin after using tone() in a buzzer circuit?
+Option_a: stopTone(pin)
+Option_b: noTone(pin)
+Option_c: Serial.end()
+Option_d: digitalWrite(pin, LOW)
+correct_option: noTone(pin)
+
+378
+What is the range of distances an HC-SR04 ultrasonic sensor can typically measure?
+Option_a: 2cm to 400cm
+Option_b: 5cm to 100cm
+Option_c: 10cm to 200cm
+Option_d: 1cm to 500cm
+correct_option: 2cm to 400cm
+
+379
+When using a water-level sensor, higher water levels result in which type of reading on an analog pin?
+Option_a: Higher analog values
+Option_b: Lower analog values
+Option_c: No change
+Option_d: Constant output
+correct_option: Higher analog values
+
+380
+Which function is used to initialize communication with the RFID module in an Arduino sketch?
+Option_a: RFID.init()
+Option_b: SPI.begin()
+Option_c: rfid.PCD_Init()
+Option_d: Wire.begin()
+correct_option: rfid.PCD_Init()
+
+381
+What does the echo pin on the ultrasonic sensor do?
+Option_a: Sends an ultrasonic wave
+Option_b: Receives the ultrasonic wave reflection
+Option_c: Measures distance directly
+Option_d: Generates power
+correct_option: Receives the ultrasonic wave reflection
+
+382
+When interfacing the MQ-6 gas sensor, which factor affects its sensitivity to gases?
+Option_a: Humidity
+Option_b: Air pressure
+Option_c: Heater voltage
+Option_d: Temperature
+correct_option: Heater voltage
+
+383
+Which Arduino function sets up communication at a specific baud rate for RFID modules
+Option_a: Serial.write()
+Option_b: Serial.begin()
+Option_c: RFID.read()
+Option_d: Serial.available()
+correct_option: Serial.begin()
+
+384
+Which of these is an application of an LED chaser project?
+Option_a: Distance measurement
+Option_b: Visual indicators in displays
+Option_c: Gas detection
+Option_d: Sound control
+correct_option: Visual indicators in displays
+
+385
+In a buzzer circuit, which of these can be controlled by changing the frequency parameter in tone()?
+Option_a: Brightness of an LED
+Option_b: Pitch of the buzzer sound
+Option_c: Speed of motor
+Option_d: Serial data rate
+correct_option: Pitch of the buzzer sound
+
+386
+For an HC-SR04 sensor, what unit is the time taken for sound waves to return typically measured in?
+Option_a: Seconds
+Option_b: Milliseconds
+Option_c: Microseconds
+Option_d: Nanoseconds
+correct_option: Microseconds
+
+387
+Which component in the MQ-6 sensor heats up to increase gas sensitivity?
+Option_a: A ceramic resistor
+Option_b: A heating coil
+Option_c: A capacitor
+Option_d: An inductor
+correct_option: A heating coil
+
+388
+In RFID applications, what term is used for the component that reads the data stored in RFID tags?
+Option_a: Transmitter
+Option_b: Reader
+Option_c: Antenna
+Option_d: Decoder
+correct_option: Reader
+
+389
+What feature of an LED chaser makes it visually appealing in light displays?
+Option_a: High brightness
+Option_b: Sequential lighting effect
+Option_c: Constant brightness
+Option_d: Sound control
+correct_option: Sequential lighting effect
+
+390
+What role does digitalWrite() serve in turning an LED on or off in an LED chaser circuit?
+Option_a: Sets LED brightness
+Option_b: Sets the LED to HIGH or LOW
+Option_c: Delays the sequence
+Option_d: Stops the program
+correct_option: Sets the LED to HIGH or LOW
+
+391
+If you want the buzzer to play a different tone, what should you change in the tone() function?
+Option_a: Frequency
+Option_b: Pin number
+Option_c: Baud rate
+Option_d: Voltage
+correct_option: Frequency
+
+392
+How does the ultrasonic sensor determine the distance of an object from the sensor?
+Option_a: Based on the frequency of sound
+Option_b: By measuring time of flight of sound waves
+Option_c: Using temperature sensors
+Option_d: Through light reflection
+correct_option: By measuring time of flight of sound waves
+
+393
+When an RFID tag comes near the RFID reader, which signal is used for tag identification?
+Option_a: Analog
+Option_b: Radio frequency
+Option_c: Infrared
+Option_d: Ultrasonic
+correct_option: Radio frequency
+
+394
+Which Arduino function is used to read analog values from a water-level sensor?
+Option_a: analogWrite()
+Option_b: analogRead()
+Option_c: digitalRead()
+Option_d: Serial.print()
+correct_option: analogRead()
+
+395
+What does an RFID tag’s UID (Unique Identifier) represent?
+Option_a: The power level of the tag
+Option_b: A unique serial number
+Option_c: The frequency of the tag
+Option_d: The signal strength of the tag
+correct_option: A unique serial number
+
+396
+How can the sensitivity of an MQ-6 gas sensor be adjusted in a circuit?
+Option_a: By changing the supply voltage
+Option_b: Using a potentiometer
+Option_c: By altering the baud rate
+Option_d: Using the delay function
+correct_option: Using a potentiometer
+
+397
+In an LED chaser circuit, which type of loop is most often used to iterate over each LED?
+Option_a: while
+Option_b: for
+Option_c: do-while
+Option_d: switch
+correct_option: for
+
+398
+What frequency range is typically used for RFID communication with the MFRC522 module?
+Option_a: 860-960 MHz
+Option_b: 125 kHz
+Option_c: 13.56 MHz
+Option_d: 433 MHz
+correct_option: 13.56 MHz
+
+399
+Which Arduino component can store data received from an RFID tag?
+Option_a: EEPROM
+Option_b: RAM
+Option_c: Flash
+Option_d: Analog pin
+correct_option: EEPROM
+
+400
+For an LED chaser effect, which pin mode should each LED pin be set to?
+Option_a: INPUT
+Option_b: OUTPUT
+Option_c: ANALOG
+Option_d: PWM
+correct_option: OUTPUT
