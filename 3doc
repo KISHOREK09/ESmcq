@@ -1,0 +1,639 @@
+161
+Which pin configuration is used to connect a 7-segment display to 8051?
+Option_a: GPIO pins
+Option_b: ADC pins
+Option_c: PWM pins
+Option_d: UART pins
+correct_option: GPIO pins
+
+162
+How many segments does a 7-segment display consist of?
+Option_a: 5
+Option_b: 6
+Option_c: 7
+Option_d: 8
+correct_option: 7
+
+163
+What additional segment is present in an 8-segment display?
+Option_a: Decimal Point
+Option_b: Colon
+Option_c: Comma
+Option_d: Extra Digit
+correct_option: Decimal Point
+
+164
+Which data type is generally used to send values to a 7-segment display?
+Option_a: Integer
+Option_b: Character
+Option_c: Binary
+Option_d: Float
+correct_option: Binary
+
+165
+In 7-segment displays, which configuration turns on all segments?
+Option_a: 0xFF
+Option_b: 0x00
+Option_c: 0x7F
+Option_d: 0xFE
+correct_option: 0xFF
+
+166
+Which sensor is commonly used in digital thermometer projects?
+Option_a: LM35
+Option_b: DHT11
+Option_c: MQ3
+Option_d: LDR
+correct_option: LM35
+
+167
+What is the typical range of the LM35 temperature sensor?
+Option_a: 0°C to 50°C
+Option_b: -55°C to 150°C
+Option_c: -20°C to 100°C
+Option_d: 0°C to 100°C
+correct_option: -55°C to 150°C
+
+168
+What is the voltage output of the LM35 sensor for 25°C?
+Option_a: 25 mV
+Option_b: 250 mV
+Option_c: 2.5 V
+Option_d: 2500 mV
+correct_option: 250 mV
+
+169
+Which component is essential for analog-to-digital conversion in a digital thermometer?
+Option_a: ADC
+Option_b: DAC
+Option_c: GPIO
+Option_d: PWM
+correct_option: ADC
+
+170
+Which of the following microcontrollers supports ADC?
+Option_a: 8051
+Option_b: PIC
+Option_c: LPC2148
+Option_d: All of the above
+correct_option: All of the above
+
+171
+Which peripheral is used to control LED flashing in LPC2148?
+Option_a: GPIO
+Option_b: ADC
+Option_c: UART
+Option_d: Timer
+correct_option: GPIO
+
+172
+How many General Purpose Input/Output (GPIO) ports does LPC2148 have?
+Option_a: 1
+Option_b: 2
+Option_c: 3
+Option_d: 4
+correct_option: 2
+
+173
+Which register is used to set the direction of GPIO pins in LPC2148?
+Option_a: PINSEL
+Option_b: IOSET
+Option_c: IODIR
+Option_d: IOCLR
+correct_option: IODIR
+
+174
+Which of the following instructions turns an LED on in LPC2148?
+Option_a: IOSET |= 0x01;
+Option_b: IOCLR |= 0x01;
+Option_c: IODIR |= 0x00;
+Option_d: IOCLR &= ~0x01;
+correct_option: IOSET |= 0x01;
+
+175
+What is the operating voltage of LEDs in the LPC2148 kit?
+Option_a: 3.3 V
+Option_b: 5 V
+Option_c: 1.8 V
+Option_d: 9 V
+correct_option: 3.3 V
+
+176
+How many ADC channels are available in LPC2148?
+Option_a: 4
+Option_b: 6
+Option_c: 8
+Option_d: 12
+correct_option: 6
+
+177
+Which ADC resolution is supported by LPC2148?
+Option_a: 8-bit
+Option_b: 10-bit
+Option_c: 12-bit
+Option_d: 16-bit
+correct_option: 10-bit
+
+178
+Which peripheral in LPC2148 allows converting analog signals to digital?
+Option_a: DAC
+Option_b: ADC
+Option_c: PWM
+Option_d: Timer
+correct_option: ADC
+
+179
+Which register in LPC2148 stores the converted ADC value?
+Option_a: ADCR
+Option_b: ADSTAT
+Option_c: ADDR
+Option_d: ADGDR
+correct_option: ADGDR
+
+180
+How is the ADC clock frequency configured in LPC2148?
+Option_a: By setting ADC registers
+Option_b: Using I2C peripheral
+Option_c: Using a GPIO pin
+Option_d: By configuring UART
+correct_option: By setting ADC registers
+
+181
+How many control pins are required to connect a single 7-segment display?
+Option_a: 7
+Option_b: 8
+Option_c: 10
+Option_d: 11
+correct_option: 8
+
+182
+Which hexadecimal value represents the number "5" on a common cathode 7-segment display?
+Option_a: 0x6D
+Option_b: 0x5B
+Option_c: 0x4F
+Option_d: 0x3E
+correct_option: 0x6D
+
+183
+How do you represent the alphabet "A" on a 7-segment display?
+Option_a: 0x77
+Option_b: 0x7C
+Option_c: 0x39
+Option_d: 0x5E
+correct_option: 0x77
+
+184
+Which mode must be configured to display a decimal number on 7-segment LED using LPC2148?
+Option_a: Input Mode
+Option_b: Output Mode
+Option_c: Interrupt Mode
+Option_d: ADC Mode
+correct_option: Output Mode
+
+185
+What is the key difference between a common anode and common cathode 7-segment display?
+Option_a: Common cathode connects all anodes to ground
+Option_b: Common anode connects all cathodes to ground
+Option_c: Common cathode connects all cathodes to ground
+Option_d: Both configurations connect to Vcc
+correct_option: Common cathode connects all cathodes to ground
+
+186
+What is the hexadecimal code to display the number "1" on a common cathode 7-segment display?
+Option_a: 0x06
+Option_b: 0x3F
+Option_c: 0x5B
+Option_d: 0x4F
+correct_option: 0x06
+
+187
+What kind of circuit is necessary for driving a 7-segment display with an 8051 microcontroller?
+Option_a: Pull-down resistor circuit
+Option_b: Multiplexing circuit
+Option_c: PWM driver circuit
+Option_d: Timer circuit
+correct_option: Multiplexing circuit
+
+188
+Which Proteus component is used to simulate the 8051 microcontroller?
+Option_a: AT89C51
+Option_b: PIC16F877A
+Option_c: STM32F103
+Option_d: ARM Cortex M3
+correct_option: AT89C51
+
+189
+What is the purpose of a current-limiting resistor in a 7-segment display circuit?
+Option_a: Protect the microcontroller
+Option_b: Control brightness
+Option_c: Prevent overheating
+Option_d: All of the above
+correct_option: All of the above
+
+190
+In Proteus simulation, which tool is used to observe real-time values of signals?
+Option_a: Logic Analyzer
+Option_b: Oscilloscope
+Option_c: Virtual Terminal
+Option_d: Digital Display
+correct_option: Oscilloscope
+
+191
+Which unit is used to display the temperature reading in a digital thermometer?
+Option_a: Fahrenheit
+Option_b: Kelvin
+Option_c: Celsius
+Option_d: Rankine
+correct_option: Celsius
+
+192
+What is the typical operating voltage range of LM35?
+Option_a: 1.5V - 5V
+Option_b: 4V - 30V
+Option_c: 2.7V - 3.3V
+Option_d: 0V - 10V
+correct_option: 4V - 30V
+
+193
+What is the output voltage of LM35 for a temperature of 100°C?
+Option_a: 100 mV
+Option_b: 500 mV
+Option_c: 1 V
+Option_d: 10 V
+correct_option: 1 V
+
+194
+What component can be used to display temperature readings in real-time?
+Option_a: LCD display
+Option_b: Seven-segment display
+Option_c: LED array
+Option_d: Both Option_a and Option_b
+correct_option: Both Option_a and Option_b
+
+195
+What is the accuracy of the LM35 temperature sensor?
+Option_a: ±1°C
+Option_b: ±0.5°C
+Option_c: ±2°C
+Option_d: ±5°C
+correct_option: ±0.5°C
+
+196
+Which programming language is most commonly used to program the LPC2148?
+Option_a: Python
+Option_b: C
+Option_c: Java
+Option_d: Assembly
+correct_option: C
+
+197
+Which timer mode is often used for generating delays for LED flashing?
+Option_a: PWM Mode
+Option_b: Interrupt Mode
+Option_c: Capture Mode
+Option_d: Timer Mode
+correct_option: Timer Mode
+
+198
+Which register is used to start a timer in LPC2148?
+Option_a: T0TCR
+Option_b: T1PR
+Option_c: T0IR
+Option_d: T0PC
+correct_option: T0TCR
+
+199
+What happens if the delay in the LED flashing code is set too short?
+Option_a: LED will not light up
+Option_b: LED will flicker too fast to observe
+Option_c: LED will burn out
+Option_d: LED will remain constantly on
+correct_option: Option_b
+
+200
+What is the clock frequency of LPC2148 by default?
+Option_a: 16 MHz
+Option_b: 60 MHz
+Option_c: 12 MHz
+Option_d: 48 MHz
+correct_option: 12 MHz
+
+201
+Which analog input pin is typically used first in ADC configuration?
+Option_a: AD0.0
+Option_b: AD0.1
+Option_c: AD1.1
+Option_d: AD1.2
+correct_option: AD0.0
+
+202
+What is the maximum input voltage for ADC in LPC2148?
+Option_a: 2.5V
+Option_b: 3.3V
+Option_c: 5V
+Option_d: 1.8V
+correct_option: 3.3V
+
+203
+Which register in LPC2148 indicates the status of ADC conversion?
+Option_a: ADSTAT
+Option_b: ADDR
+Option_c: ADGSR
+Option_d: ADGDR
+correct_option: ADGDR
+
+204
+What value is returned by ADC in LPC2148 if the input voltage is 1.65V, assuming a 10-bit resolution?
+Option_a: 256
+Option_b: 512
+Option_c: 768
+Option_d: 1023
+correct_option: 512
+
+205
+Which peripheral helps to convert physical quantities such as temperature into ADC input?
+Option_a: Sensors
+Option_b: GPIO
+Option_c: UART
+Option_d: I2C
+correct_option: Sensors
+
+206
+Which control technique can be used to drive multiple 7-segment displays with fewer pins?
+Option_a: Multiplexing
+Option_b: Direct control
+Option_c: PWM
+Option_d: UART communication
+correct_option: Multiplexing
+
+207
+Which 7-segment display pattern corresponds to the number "0"?
+Option_a: 0x3F
+Option_b: 0x06
+Option_c: 0x5B
+Option_d: 0x7F
+correct_option: 0x3F
+
+208
+How is the brightness of a 7-segment display controlled?
+Option_a: By controlling supply voltage
+Option_b: Using PWM
+Option_c: Using GPIO speed
+Option_d: Adjusting current flow
+correct_option: Using PWM
+
+209
+In LPC2148, which interface is commonly used for interfacing 7-segment displays?
+Option_a: UART
+Option_b: I2C
+Option_c: GPIO
+Option_d: SPI
+correct_option: GPIO
+
+210
+Which number format requires the least segment activation on a 7-segment display?
+Option_a: Decimal 8
+Option_b: Decimal 0
+Option_c: Decimal 1
+Option_d: Decimal 9
+correct_option: Decimal 1
+
+211
+What is the purpose of using a common anode or common cathode configuration in a 7-segment display?
+Option_a: To control individual LED segments
+Option_b: To simplify circuit design
+Option_c: To enable serial communication
+Option_d: To reduce power consumption
+correct_option: To simplify circuit design
+
+212
+Which register in LPC2148 is typically used to set pins as output for driving a 7-segment display?
+Option_a: PINSEL
+Option_b: IOSET
+Option_c: IODIR
+Option_d: IOCLR
+correct_option: IODIR
+
+213
+Which hex code corresponds to displaying the number "7" on a 7-segment display?
+Option_a: 0x07
+Option_b: 0x79
+Option_c: 0x77
+Option_d: 0x3F
+correct_option: 0x07
+
+214
+In LPC2148, what is the clock source for running the 7-segment display?
+Option_a: On-chip oscillator
+Option_b: PLL
+Option_c: GPIO clock
+Option_d: ADC clock
+correct_option: On-chip oscillator
+
+215
+Which component in Proteus can be used to simulate the 7-segment display output?
+Option_a: Virtual Terminal
+Option_b: Digital Display
+Option_c: LED Array
+Option_d: 7-SEG-COM-CATH
+correct_option: 7-SEG-COM-CATH
+
+216
+What happens when the timer in LPC2148 reaches its match value?
+Option_a: Timer resets
+Option_b: Timer stops
+Option_c: Interrupt is generated
+Option_d: LED turns off
+correct_option: Interrupt is generated
+
+217
+Which register in LPC2148 is used to load the match value for the timer?
+Option_a: T0MR0
+Option_b: T0TCR
+Option_c: T0IR
+Option_d: T0PR
+correct_option: TOMRO
+
+218
+What frequency is generated if the timer runs at 12 MHz and the match value is set to 12000?
+Option_a: 10 Hz
+Option_b: 1 kHz
+Option_c: 1 Hz
+Option_d: 100 Hz
+correct_option: 1 Hz
+
+219
+Which of the following is an alternative method for flashing LEDs on LPC2148?
+Option_a: Using PWM
+Option_b: Using GPIO polling
+Option_c: Using UART
+Option_d: Using SPI
+correct_option: Uisng GPIO polling
+
+220
+What happens when the match interrupt is not cleared in LPC2148?
+Option_a: Timer continues normally
+Option_b: Timer halts
+Option_c: Interrupt keeps triggering
+Option_d: Timer resets
+correct_option: Inerrupts keep triggering
+
+221
+Which resolution is typically supported by the internal ADC in LPC2148?
+Option_a: 8-bit
+Option_b: 10-bit
+Option_c: 12-bit
+Option_d: 16-bit
+correct_option: 10-bit
+
+222
+Which peripheral bus controls the ADC module in LPC2148?
+Option_a: AHB
+Option_b: APB
+Option_c: I2C
+Option_d: SPI
+correct_option: APB
+
+223
+Which flag indicates that the ADC conversion is complete in LPC2148?
+Option_a: DONE
+Option_b: READY
+Option_cADC
+Option_d: COMPLETE
+correct_option: DONE
+
+224
+What value will the ADC return if the input voltage is 3.3V, assuming 10-bit resolution?
+Option_a: 1023
+Option_b: 512
+Option_c: 2047
+Option_d: 255
+correct_option: 1023
+
+225
+Which of the following can be connected to the ADC input to measure analog signals?
+Option_a: Potentiometer
+Option_b: Temperature Sensor
+Option_c: Light Sensor
+Option_d: All of the above
+correct_option: Temperature Sensor
+
+226
+What is the purpose of using a voltage divider circuit with LM35?
+Option_a: To stabilize current
+Option_b: To step down voltage
+Option_c: To adjust output voltage range
+Option_d: To regulate input voltage
+correct_option: To adjust output voltage range
+
+227
+Which type of ADC is typically used for reading LM35 output in a microcontroller?
+Option_a: Flash ADC
+Option_b: Successive Approximation ADC
+Option_c: Delta-Sigma ADC
+Option_d: Dual-Slope ADC
+correct_option: Successive Approximation ADC
+
+228
+Which part of the LM35 sensor indicates its operating temperature range?
+Option_a: Datasheet
+Option_b: Calibration curves
+Option_c: Output specifications
+Option_d: Pin configuration
+correct_option: Datasheet
+
+229
+How can temperature values be displayed on a Proteus LCD module?
+Option_a: Direct binary values
+Option_b: ASCII-converted values
+Option_c: Binary-to-decimal converter
+Option_d: Digital signal processor
+correct_option: ASCII-converted values
+
+230
+What happens to the LM35 output voltage as temperature decreases?
+Option_a: Voltage increases
+Option_b: Voltage decreases
+Option_c: Voltage remains constant
+Option_d: Voltage fluctuates
+correct_option: Voltage decreases
+
+231
+Which tool is primarily used to debug LPC2148 microcontroller programs?
+Option_a: Keil uVision
+Option_b: Arduino IDE
+Option_c: MPLAB X
+Option_d: Visual Studio Code
+correct_option: Keil uVision
+
+232
+What file format is required to upload programs to the LPC2148?
+Option_a: .bin
+Option_b: .hex
+Option_c: .elf
+Option_d: .exe
+correct_option: .hex
+
+233
+Which communication protocol is often used for downloading firmware onto LPC2148?
+Option_a: I2C
+Option_b: UART
+Option_c: SPI
+Option_d: CAN
+correct_option: UART
+
+234
+Which of the following is a common compiler for ARM-based microcontrollers?
+Option_a: GCC
+Option_b: Clang
+Option_c: IAR
+Option_d: All of the above
+correct_option: All of the above
+
+235
+What is the main advantage of using the Proteus simulation software?
+Option_a: Real-time debugging
+Option_b: Hardware emulation
+Option_c: Cost-effectiveness in testing
+Option_d: All of the above
+correct_option: All of the above
+
+236
+What is the typical power supply voltage for the LPC2148 microcontroller?
+Option_a: 3.3V
+Option_b: 5V
+Option_c: 12V
+Option_d: 1.8V
+correct_option: 3.3V
+
+237
+Which debugging technique is most suitable for LPC2148 when using Keil uVision?
+Option_a: Step-by-step execution
+Option_b: Breakpoint analysis
+Option_c: Register inspection
+Option_d: All of the above
+correct_option: All of the above
+
+238
+What is the maximum resolution of the timer/counter peripheral in LPC2148?
+Option_a: 8-bit
+Option_b: 16-bit
+Option_c: 32-bit
+Option_d: 64-bit
+correct_option: 32-bit
+
+239
+Which of the following peripherals is commonly used to interface a 7-segment display with LPC2148?
+Option_a: GPIO
+Option_b: ADC
+Option_c: PWM
+Option_d: UART
+correct_option: GPIO
+
+240
+What is the primary purpose of configuring the PLL (Phase-Locked Loop) in LPC2148?
+Option_a: To generate higher clock frequencies
+Option_b: To manage power efficiency
+Option_c: To control I/O operations
+Option_d: To optimize GPIO speed
+correct_option: To generate higher clock frequencies
